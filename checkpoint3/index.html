@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href="file.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+            <button onClick="bold()">bold</button>
+            <button onClick="italic()">Italic</button>
+            <button onClick="underlined()">underlined</button>
+         <p id="my-text"> We're going to make a program that looks like Microsoft Word There will be 
+            one paragrah and a bunch of buttons.</p>
+
+            <select onChange="changeFont()" id="font">
+                <option value="courier">Courier</option>
+                <option value="arial">arial</option> 
+                <option value="cambria">acambaria</option>
+            </select>
+            <select onChange="changeSize()" id="size">
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>  
+            </select>
+        </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="filejquery.js"></script>
+</html>
